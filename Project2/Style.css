@@ -1,0 +1,119 @@
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: black
+}
+
+.navbar-brand img {
+    max-height: 50px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+nav ul li a {
+    font-size: 22px;
+    margin: auto 10px;
+    color: black
+}
+
+nav ul li a:hover {
+    color: black
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+button {
+    max-width: 50%;
+    border-radius: 50px !important;
+}
+
+#hero .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#hero .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hero img {
+    max-width: 130% !important;
+    width: 130%
+}
+
+#hero .card {
+    box-shadow: 11px 7px 16px whitesmoke;
+    border: 0;
+    text-align: center;
+}
+
+#hero .icon {
+    margin-bottom: 20px;
+}
+
+#card1 .col {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#card1 img {
+    max-width: 50%;
+}
+
+#card1 .img-col {
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#card1 .card {
+    box-shadow: 11px 7px 16px whitesmoke;
+    border: 0;
+    text-align: center;
+}
+
+#games img {
+    max-width: 50%; !important
+    width: 50;
+}
+
+#games .games {
+    margin-bottom: 50px;
+}
+
+#contact {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#contact h1 {
+    text-align: center;
+    color:white;
+}
